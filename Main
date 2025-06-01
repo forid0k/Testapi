@@ -3,5 +3,5 @@ git init
 git add .
 git commit -m "Initial commit - Forex API project"
 git branch -M main
-git remote add origin https://github.com/yourusername/forex-api.git
+git remote add origin https://github.com/forid0k/forex-api.git
 git push -u origin main
