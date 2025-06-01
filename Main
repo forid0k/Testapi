@@ -1,7 +1,8 @@
-cd path/to/your/forex-api
-git init
-git add .
-git commit -m "Initial commit - Forex API project"
-git branch -M main
-git remote add origin https://github.com/forid0k/forex-api.git
-git push -u origin main
+# main.py
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+def read_root():
+    return {"message": "Hello from free server!"}
